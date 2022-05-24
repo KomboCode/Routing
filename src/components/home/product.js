@@ -11,7 +11,7 @@ const Product = ({
     return (
         <div className='card'>
             <h2>{name}</h2>
-            <h3>{price}</h3>
+            <h3>${price}</h3>
             <img src={image}/>
             <Link 
                to="/singleItem"
